@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+button{
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 15px 28px;
+    cursor: pointer;
+    transition: all 1s;
+}
+button:hover{
+    background: #cf3153;
+}
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section-heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-heading h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+/* header styles */
+header, #hot-deal{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-txt h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner .banner-txt *{
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+.banner .banner-img img{
+    width: 100%;
+    vertical-align: middle;
+
+}
+#featured{
+    padding: 100px 0;
+}
+.section-content{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+}
+.section-content .flower .flower-img{
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+#img1{
+    background: rgba(167, 33, 98, 0.15);
+
+}
+#img2{
+    background: rgba(5, 151, 160, 0.15);;
+
+}
+#img3{
+    background: rgba(71, 125, 17, 0.15);
+
+}
+.section-content .flower .flower-img img{
+    width: 100%;
+}
+.section-content .flower p{
+    color: #272727;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+}
+.cares{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 0;
+}
+
+.care-content .care-name .care-img{
+    padding: 30px 25px 0;
+    display: flex;
+    align-items: center;
+    margin: 0 80px;
+}
+.care-content .care-name p{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px; /* 145.833% */
+}
+.hot-deal-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+    margin-top: 50px;
+}
+#hot-deal .hot-deal-txt{
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+#hot-deal .hot-deal-txt *{
+    margin-bottom: 24px;
+}
+#hot-deal .hot-deal-txt h2{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+#hot-deal .hot-deal-txt h2 .imp{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+}
+#insta{
+    padding: 100px 0;
+}
+.insta-content{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+}
+.insta-content .iflower .iflower-img{
+    border-radius: 300px 300px 0px 0px;
+    padding: 25px 0 0;
+    display: flex;
+    align-items: end;
+}
+.insta-content .iflower .iflower-img img{
+    width: 100%;
+}
+#newsletter{
+    margin: 128px 0;
+}
+.n-bg{
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    padding: 120px 0;
+}
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 20px;
+    outline: 1px solid #E55473;
+}
+#foot{
+    margin: 128px 0;
+}
+.f-bg{
+    background-color: #111010;
+    padding: 120px 0;
+}
+#foot  h2 .imp{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.imp2{
+    color: white;
+}
+#foot #trademark{
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+}
